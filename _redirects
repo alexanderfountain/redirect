@@ -1,1 +1,17 @@
-/ https://bwtrailerhitches.com/
+[[redirects]]
+  from = "/"
+  to = "https://bwtrailerhitches.com/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/*"
+  to = "https://bwtrailerhitches.com/"
+  status = 301
+  force = true
+
+ [[redirects]]
+  from = "*"
+  to = "https://bwtrailerhitches.com/"
+  status = 301
+  force = true
